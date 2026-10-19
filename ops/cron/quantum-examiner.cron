@@ -1,0 +1,2 @@
+# Run every 5 minutes
+*/5 * * * * cd /opt/quantum-examiner && /opt/quantum-examiner/.venv/bin/python -m quantum_examiner.cli demo >> /var/log/quantum-examiner.log 2>&1
