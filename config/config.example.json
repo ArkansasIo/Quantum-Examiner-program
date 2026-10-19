@@ -1,0 +1,7 @@
+{
+  "server":{"host":"127.0.0.1","port":8000},
+  "database":{"host":"127.0.0.1","port":3306,"database":"quantum_examiner","user":"quantum","password":"CHANGE_ME"},
+  "simulation":{"max_qubits":24,"shots":1024},
+  "device":{"adapter":"mock","sample_rate_hz":10},
+  "examiner":{"bloch_tolerance":1e-9}
+}
